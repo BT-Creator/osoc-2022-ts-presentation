@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "js": "node ./javascript/index.js",
-    "ts": "tsc ./typescript/index.ts && node ./typescript/index.js"
+    "ts": "tsc ./typescript/index.ts --lib es2016,dom && node ./typescript/index.js"
   },
   "author": "Bo Robbrecht",
   "license": "ISC"
